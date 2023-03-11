@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+body{
+    background: url("images/background.jpg");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.riquadro{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1300px;
+    border-radius: 20px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+header{
+    text-align: center;
+}
+header > h2{
+    color: lime;
+    font-size: 30px;
+}
+.logo{
+    width: 300px;
+}
+
+
+nav{
+    background-color: lime;
+    text-align: center;
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+}
+
+main{
+    color: white;
+}
+
+.monopattino{
+    margin-left: 150px;
+}
+
+.monopattino > h3{
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.quadrato:before{
+    content: "\25A0";
+}
+
+.freccia:before{
+    content: "\21A6";
+}
+
+.medium_charge, .high_charge, .low_charge{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.low_charge{
+    background-color: red;
+    width: 150px;
+}
+
+.medium_charge{
+    background-color: orange;
+    width: 400px;
+}
+
+.high_charge{
+    background-color: green;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
